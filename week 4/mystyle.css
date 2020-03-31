@@ -1,0 +1,76 @@
+p + p { 
+    color: purple; 
+}
+
+p + p + p {
+     color: red; 
+    }
+
+a:visited{
+    color: darkred;
+}
+
+a:link{
+    color: blue;
+}
+
+a:hover{
+    color:green;
+}
+
+a:active{
+    color: red;
+}
+
+ol li:first-child{
+    color:red;
+}
+ol li:nth-child(even){
+    color:purple;
+}
+
+}
+ol li:last-child{
+    color:blue;
+}
+
+
+
+table,td,th {
+    border :1px solid;
+}
+table{
+    border-collapse: collapse;
+}
+tr:first-child{
+    background-color: royalblue;
+}
+
+tr:nth-child(even){
+    background-color: seashell;
+}
+
+td:nth-child(even){
+    background-color: red;
+}
+p::first-line{
+    color:green;
+    font-size: 120%;
+    font-style: italic;
+
+}
+
+p::first-letter{
+    font-size: 150%;
+}
+
+p::selection{
+    background-color: red;
+}
+
+p::before, p::after{
+    content: " cac "; 
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 150%;
+}
